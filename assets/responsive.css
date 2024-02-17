@@ -1,0 +1,43 @@
+@media (width <= 1250px) {
+  .section {
+    padding: 2rem 5rem;
+  }
+}
+
+@media (width <=1150px) {
+  .section {
+    padding: 2rem;
+  }
+}
+
+@media (width <=1030px) {
+  .web-location {
+    display: none;
+  }
+  .mob-location {
+    display: flex;
+  }
+}
+
+@media (width <=540px) {
+  .mob-location {
+    display: none;
+  }
+
+  .logo {
+    width: 15rem;
+  }
+
+  .header-btns,
+  .btn {
+    gap: 0.5rem;
+  }
+}
+@media (width <=430px) {
+  .btn {
+    display: none;
+  }
+  .btn-secondary {
+    display: block;
+  }
+}

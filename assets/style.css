@@ -206,7 +206,6 @@ main.container {
 }
 
 .location {
-  
   font-size: 1.6rem;
 }
 
@@ -216,6 +215,25 @@ main.container {
   gap: 1rem;
 }
 
+/*!=============== hero section ===============*/
+.hero-container {
+  background-color: var(--mainColor1);
+}
+
+.main-heading {
+  font-size: 5rem;
+  color: white;
+}
+
+.main-heading + p {
+  font-size: 1.7rem;
+}
+
+.hero-input-container
+
+.hero-img {
+  width: 30rem;
+}
 /*!========== drop up css ==========*/
 .drop-up {
   bottom: 3%;
